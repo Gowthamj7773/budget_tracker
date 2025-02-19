@@ -1,0 +1,145 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    display: grid;
+    place-items: center;
+    background-color: #F5F5F5;
+}
+.container{
+    width: 50%;
+    height: 600px;
+    background-color: white;
+    display: flex;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+
+
+}
+/*container_main*/
+.container div{
+    flex: 1;
+}
+/*--------------------------------------------------*/
+
+/*main left*/
+.main_left{
+    background-color: #36454F;
+    display: flex;
+    flex-direction: column;
+}
+
+.main_left h1{
+    color: goldenrod;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    display: flex;
+    padding: 10px;
+    margin-left: 10px;
+}
+.main_left h2{
+    color: white;
+    display: flex;
+    padding: 10px;
+    margin-left: 10px;
+}
+.main_left h4{
+    color: white;
+    display:flex;
+    padding: 10px;
+    margin-left: 10px;
+}
+.money{
+    height: 150px;
+    display: flex;
+}
+.money div{
+    flex:1;
+    height: 100px;
+    border-radius: 15px;
+    border-style:solid;
+    border-width: 3px;
+    
+}
+.income{
+    border-color: green;
+    background-color: #36454F;
+    margin-left: 20px;
+}
+.expense{
+    border-color: red;
+    background-color:#36454F;
+    margin-left: 8px;
+    margin-right: 20px;
+}
+.left_heading
+{
+    display:block;
+    margin:0px;
+}
+.money_head{
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+}
+.income h2{
+    color: green;
+}
+.expense h2{
+    color:red;
+}
+.left_input{
+    flex: 1;
+}
+.left_input *{
+    margin-left: 20px;
+}
+.left_input input{
+    margin:20px;
+    width: 350px;
+    height: 50px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.left_input button{
+margin: 15px;
+margin-left: 20px;
+width: 350px;
+height: 50px;
+border-radius: 15px;
+background-color: blue;
+color:white;
+}
+.left_input button:hover{
+    cursor: pointer;
+}
+/*--------------------------------------------------------------*/
+/*main right*/
+.main_right{
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+.main_right h3{
+    padding: 20px;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+}
+
+.right_list_data{
+    height: 40px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.right_delete_button{
+    background-image: url('images.png');
+    background-size: contain;
+    height: 40px;
+    width: 40px;
+    background-repeat: no-repeat;
+    display: block;
+    border:none;
+    margin-left: auto;
+}

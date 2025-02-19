@@ -1,0 +1,40 @@
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Budget Tracker</title>
+    <link rel="icon" href="icon.png">
+</head>
+<body>
+<div class="container">
+    <div class="main_left">
+        <heading class="left_heading">
+        <h1>INCOME EXPENSE TRACKER</h1>
+        <h4>Your balance</h4>
+        <h2 id="top_money">₹ 0.00</h2>
+        </heading>
+        <money_box class="money">
+        <div class="income">
+            <h2 class="money_head" >INCOME</h2>
+            <h2 style="padding: 20px;" id="mid_money1">₹ 0.00</h2>
+        </div>
+        <div class="expense">
+            <h2 class="money_head">EXPENSE</h2>
+            <h2 style="padding: 20px;" id="mid_money2">₹ 0.00</h2>
+        </div>
+        </money_box>
+        <input_box  class="left_input">
+        <h3>Description</h3>
+        <input placeholder=" Enter description" id="description">
+        <h3>Amount</h3>
+        <input placeholder=" Enter Amount" type="number" id="amount">
+        <br>
+        <button onclick="transaction()">Add transaction</button>
+        </input_box>
+    </div>
+    <div class="main_right" id="right_box">
+        <h3>TRANSACTION DETAILS</h3>
+        <ul id="right_list">
+        </ul>
+    </div>
+</div>
+</body>
+<script src="script.js"></script>
