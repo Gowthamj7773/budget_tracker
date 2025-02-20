@@ -143,6 +143,9 @@ color:white;
     border:none;
     margin-left: auto;
 }
+.right_delete_button:hover{
+    cursor: pointer;
+}
 
 #right_list_data_expense
 {

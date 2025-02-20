@@ -5,15 +5,16 @@ var top_money = document.getElementById("top_money")
 var mid_money1 = document.getElementById("mid_money1")
 var mid_money2 = document.getElementById("mid_money2")
 //money balance
-var main_balance = 0
-var income = 0
-var expense = 0
+let main_balance = 0
+let income = 0
+let expense = 0
 
 var right_list = document.getElementById("right_list")
 var new_element = document.createElement("li")
+var previous_val
 function transaction()
 {
-    var previous_val
+    
     //for appending
     var right_list = document.getElementById("right_list")
     var new_element = document.createElement("li")
@@ -69,7 +70,5 @@ function transaction()
 
 function del(event)
 {
-    /*var main_b = main_balance-previous_val
-    console.log(main_b)*/
-    event.target.parentElement.remove()
+event.target.parentElement.remove()
 }
