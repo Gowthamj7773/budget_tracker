@@ -143,3 +143,23 @@ color:white;
     border:none;
     margin-left: auto;
 }
+
+#right_list_data_expense
+{
+    display:flex;
+    border-left:red;
+    border-width:15px;
+    border-style:solid;
+    border-top:none;
+    border-bottom: none;
+    border-right: none;
+}
+#right_list_data_income{
+    display:flex;
+    border-left:green;
+    border-width:15px;
+    border-style:solid;
+    border-top:none;
+    border-bottom: none;
+    border-right: none;
+}
